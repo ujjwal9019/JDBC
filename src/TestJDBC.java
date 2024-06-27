@@ -15,6 +15,7 @@ public class TestJDBC {
             System.out.println(e.getMessage());
         }
 try {
+//    These are mandatory step for jdbc connection
 Connection con = DriverManager.getConnection(url,username,password);
 System.out.println("connection Established Succesfully");
 Statement stmt = con.createStatement();
