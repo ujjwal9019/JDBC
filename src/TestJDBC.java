@@ -3,7 +3,7 @@ import java.sql.*;
 public class TestJDBC {
     public static void main(String[] args) throws ClassNotFoundException{
 
-        String url = "jdbc:mysql://localhost:3306/mydatabase";
+        String url = "jdbc:mysql://localhost:3306/hotel_db";
         String  username = "root";
         String password = "1234";
 //        String Query = "insert into employee(id , name , job_title , salary ) VALUES (4 , 'vbvh' , 'backend'  , 25000 ) ";
